@@ -3,6 +3,8 @@ package db
 import (
 	"github.com/fiscaluno/pandorabox"
 	"github.com/jinzhu/gorm"
+
+	// some times its necessary
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )
